@@ -5,4 +5,4 @@ package-lock.json
 .env
 write.py
 .DS_Store
-error.log
+error.log.DS_Store
