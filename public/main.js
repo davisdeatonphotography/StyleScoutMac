@@ -1,5 +1,6 @@
-import { handleSubmit } from './utils.js';
-import { startAnalysis, displayResults } from './api.js';
+import { init, handleSubmit } from './utils.js';
+import { startAnalysis } from './api.js';
+import { displayResults, displayDesignAlternatives } from './ui.js';
 
 function init() {
   const analyzeButton = document.getElementById('analyzeButton');
